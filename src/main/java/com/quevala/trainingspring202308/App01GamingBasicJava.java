@@ -1,15 +1,15 @@
 package com.quevala.trainingspring202308;
 
 import com.quevala.trainingspring202308.game.GameRunner;
-import com.quevala.trainingspring202308.game.MarioGame;
-import com.quevala.trainingspring202308.game.SuperContraGame;
+import com.quevala.trainingspring202308.game.PacManGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
 
     public static void main(String[] args) {
 
-        var game = new MarioGame();
+        //var game = new MarioGame();
         //var game = new SuperContraGame();
+        var game = new PacManGame();
         var gameRunner = new GameRunner(game);
 
         gameRunner.run();
